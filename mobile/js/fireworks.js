@@ -52,7 +52,19 @@ var Fireworks = (function() {
     document.body.appendChild(mainCanvas);
     document.addEventListener('mouseup', createFirework, true);
     document.addEventListener('touchend', createFirework, true);
-
+    var num = 0;
+    var timeer = setInterval(()=>{
+        num ++;
+        createFirework()
+        if(num === 20){
+            clearInterval(timeer)
+            for (let i = 0; i < 20; i++) {
+                createFirework()
+            }
+        }
+    },1000);
+    
+      
     // and now we set off
     update();
   }

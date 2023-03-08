@@ -3,14 +3,25 @@
 <head>
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
-  	<title>帆儿，生日快乐呀~</title>
+  	<title>晶晶，生日快乐呀~</title>
   	<link rel="stylesheet" href="css/reset.css">
   	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="css/bubble.css" />
 	<link rel="stylesheet" type="text/css" href="css/base.css" />
 </head>
 <body>
+<audio id="atp" src="./music/告白气球.m4a" autoplay  preload="auto">aa</audio>
 <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        function audioAutoPlay() {
+            var audio = document.getElementById('atp');
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                audio.play();
+            }, false);
+        }
+        audioAutoPlay();
+    });
     Element.prototype.typewriter=function(a){
         var d = this,
             c = d.innerHTML,
@@ -32,6 +43,7 @@
     }
 </script>
 <container>
+   
 	<div class="velas">
 		<div class="fuego"></div>
 		<div class="fuego"></div>
@@ -190,11 +202,10 @@
 	<div class="text" id="code1"></div>
 </container>
 <div class="text" style="position:absolute;right:3rem;bottom:3rem;" id="code2"></div>
-
-<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
 <ul class="bg-bubbles">
-		<li></li>
-		<li></li>
+		<li><img src="images/big-glow.png"></li>
+		<li>bb</li>
 		<li></li>
 		<li></li>
 		<li></li>
@@ -204,12 +215,13 @@
 		<li></li>
 		<li></li>
 </ul>
+
 </body>
 <script type="text/javascript">
 	function fx(){
-		document.getElementById('code1').innerHTML = "<h1>Happy birthday!</h1><br /><p style='margin-top: -20px;'>Zhou Fanr~</p>";
+		document.getElementById('code1').innerHTML = "<h1>Happy birthday!</h1><br /><p style='margin-top: -20px;'>Zhao Jing~</p>";
 		document.getElementById('code1').typewriter();
-		document.getElementById('code2').innerHTML = "<p>2019.06.13</p>";
+		document.getElementById('code2').innerHTML = "<p>2023.03.17</p>";
 		document.getElementById('code2').typewriter();
 	}
     setTimeout("fx()",2000); 
@@ -218,6 +230,6 @@
 	function go(){
 		location.href="fireworks.html";
 	}
-	setTimeout(go, 9000);
+	setTimeout(go, 30000);
 </script>
 </html>
