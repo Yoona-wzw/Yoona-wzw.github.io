@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b249a0-47c7-4917-993a-7d968decbbcb" name="变更" comment="" />
+    <list default="true" id="39b249a0-47c7-4917-993a-7d968decbbcb" name="变更" comment="修改">
+      <change beforePath="$PROJECT_DIR$/about/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/css/bubble.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/css/bubble.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/fireworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/fireworks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/js/fireworks.js" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/js/fireworks.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mobile/music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/about/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -44,6 +52,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workSpace\gitee\other\Yoona-wzw.github.io\about\images" />
+      <recent name="E:\workSpace\gitee\other\Yoona-wzw.github.io\mobile\images" />
       <recent name="E:\workSpace\gitee\other\Yoona-wzw.github.io\mobile\music" />
     </key>
   </component>
@@ -61,7 +71,9 @@
       <workItem from="1678154223242" duration="2789000" />
       <workItem from="1678179266788" duration="1200000" />
       <workItem from="1678197592509" duration="6292000" />
-      <workItem from="1678262078992" duration="2344000" />
+      <workItem from="1678262078992" duration="4665000" />
+      <workItem from="1678692181755" duration="3789000" />
+      <workItem from="1678950196882" duration="3452000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1678265581585</created>

@@ -62,7 +62,7 @@ var Fireworks = (function() {
                 createFirework()
             }
         }
-    },1000);
+    },600);
     
       
     // and now we set off
@@ -74,7 +74,7 @@ var Fireworks = (function() {
    * new firework on touch / click
    */
   function createFirework() {
-    createParticle();
+      createParticle();
   }
 
   /**
